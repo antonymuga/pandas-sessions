@@ -14,4 +14,4 @@ print(pkm_data[['Name', 'Type 1', 'HP']].head(15))
 
 # read each row
 print(pkm_data.iloc[1]) # integer location, reads only row 1
-print(pkm_data.iloc[1:100:4]) # reads every fourth row, from 1 to 100
+print(pkm_data.iloc[1:100:4].tail(5)) # reads every fourth row, from 1 to 100, print last 5 entries
